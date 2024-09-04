@@ -12,7 +12,7 @@ A Python module for printing colored text in the terminal with ANSI escape codes
 
 You can install the package using pip:
 ```bash
-pip install your-package-name
+pip install color_ur_text
 ```
 pip install color_ur_text
 $ color_ur_text-0.1.2.2
