@@ -18,7 +18,7 @@ pip install color_ur_text
 $ color_ur_text-0.1.2.2
 
 #example_usage
-```bash
+```python
 from color_ur_text import ColoredText
 
 print(ColoredText.red("Hello World!"))
