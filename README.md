@@ -4,4 +4,4 @@ A Python module for printing colored text in the terminal with ANSI escape codes
 
 ## Installation
 
-You can install the package using pip: pip install colored_text
+You can install the package using pip: pip install color_ur_text
