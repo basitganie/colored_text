@@ -60,4 +60,4 @@ Open a Pull Request
 ## License 📜
 MIT License
 
-Copyright (c) 2023 ### Basit Ahmad Ganie
+Copyright (c) 2023 Basit Ahmad Ganie
