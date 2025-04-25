@@ -1,8 +1,8 @@
-#Contact
+# Contact
 For any questions or issues, you can contact the author:
 
-#Author: Basit Ahmad Ganie
-#Email: basitahmed1412@gmail.com
+# Author: Basit Ahmad Ganie
+# Email: basitahmed1412@gmail.com
 
 # colored_text
 
@@ -17,7 +17,7 @@ pip install color_ur_text
 pip install color_ur_text
 $ color_ur_text-0.1.2.2
 
-#example_usage
+# example_usage
 ```python
 from color_ur_text import ColoredText
 
@@ -51,7 +51,7 @@ bright_magenta: Bright magenta text color.
 bright_cyan: Bright cyan text color.
 bright_white: Bright white text color.
 
-###Recent update included new methods like table for formatting text into tables of different styles i.e. 'single', 'double', 'rounded', etc. Other methods include animate_text, rainbow, highlight_text, hsl, hex, random_color, etc.
+### Recent update included new methods like table for formatting text into tables of different styles i.e. 'single', 'double', 'rounded', etc. Other methods include animate_text, rainbow, highlight_text, hsl, hex, random_color, etc.
 
 Contributing
 If you would like to contribute to the project, you can fork the repository and submit a pull request. Your contributions are greatly appreciated!
