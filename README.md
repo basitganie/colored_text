@@ -1,60 +1,63 @@
-## Contact
-For any questions or issues, you can contact the author:
+# Colored Text 🌈
 
-## Author: Basit Ahmad Ganie
-## Email: basitahmed1412@gmail.com
+A Python module for printing colored text in the terminal with ANSI escape codes. Supports standard colors, bright colors, 256-color mode, and 24-bit RGB, HSL, hex codes, table formatting, text highlighting, random colors/backgrounds, progress_bar, gradient_text and text animations.
 
-## colored_text
+## Features ✨
 
-A Python module for printing colored text in the terminal with ANSI escape codes. Supports standard colors, bright colors, 256-color mode, and 24-bit RGB, hsl, hex_code, table formatting, text highlighting, random colors and backgrounds, text animation with predefined animation types like 'fade_in', 'blink', 'rainbow_wave' and much more.
+- **Rich Color Support**: Standard, bright, 256-color, and 24-bit RGB colors
+- **Multiple Color Formats**: RGB, HSL, HEX code support
+- **Text Formatting**: Tables with various styles ('single', 'double', 'rounded')
+- **Animations**: Predefined types like 'fade_in', 'blink', 'rainbow_wave'
+- **Highlighting**: Text background highlighting
+- **Random Colors**: Generate random colors for text or background
 
-## Installation
+## Installation ⚡
 
-You can install the package using pip:
 ```bash
 pip install color_ur_text
 ```
-pip install color_ur_text
-$ color_ur_text-0.1.2.2
 
-## example_usage
-```python
+## usage example
+``` python
 from color_ur_text import ColoredText
 
+# Basic usage
 print(ColoredText.red("Hello World!"))
-print(ColoredText.rgb(text, 24, 64, 84))
+print(ColoredText.rgb("RGB Color", 24, 64, 84))
+print(ColoredText.hex("#FF5733", "Hex Color"))
+print(ColoredText.animate("Blinking Text", animation_type="blink"))
+
+# progress bar
+print(ColoredText.progress_bar(progress))
+
+# Table formatting
+ColoredText.table(data, border_style='rounded')
+
+# Text highlighting
+ColoredText.highlight("Important! Text", "Text", bg_color='yellow')
+
+# Random colors
+ColoredText.random_color("Surprise!")
+
+# Animations
+ColoredText.animate("SYMPHONY", animation_type='rainbow_wave')
+
 ```
 
-#### It should print Hello World! in red color to terminal.
+## Contributing 🤝
+We welcome contributions! Here's how you can help:
 
-Available Colors
-Standard Colors:
+Fork the repository
 
-reset: Reset all attributes to default.
-black: Black text color.
-red: Red text color.
-green: Green text color.
-yellow: Yellow text color.
-blue: Blue text color.
-magenta: Magenta text color.
-cyan: Cyan text color.
-white: White text color.
+Create your feature branch (git checkout -b feature/AmazingFeature)
 
-Bright Colors:
+Commit your changes (git commit -m 'Add some AmazingFeature')
 
-bright_black: Often a dark gray text color.
-bright_red: Bright red text color.
-bright_green: Bright green text color.
-bright_yellow: Bright yellow text color.
-bright_blue: Bright blue text color.
-bright_magenta: Bright magenta text color.
-bright_cyan: Bright cyan text color.
-bright_white: Bright white text color.
+Push to the branch (git push origin feature/AmazingFeature)
 
-### Recent update included new methods like table for formatting text into tables of different styles i.e. 'single', 'double', 'rounded', etc. Other methods include animate_text, rainbow, highlight_text, hsl, hex, random_color, etc.
+Open a Pull Request
 
-####Contribution:
-> If you would like to contribute to the project, you can fork the repository and submit a pull request. Your contributions are greatly appreciated!
+## License 📜
+MIT License
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Copyright (c) 2023 ### Basit Ahmad Ganie
