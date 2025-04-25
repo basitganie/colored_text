@@ -53,7 +53,7 @@ bright_white: Bright white text color.
 
 ### Recent update included new methods like table for formatting text into tables of different styles i.e. 'single', 'double', 'rounded', etc. Other methods include animate_text, rainbow, highlight_text, hsl, hex, random_color, etc.
 
-Contributing
+#####Contribution:
 If you would like to contribute to the project, you can fork the repository and submit a pull request. Your contributions are greatly appreciated!
 
 License
