@@ -6,7 +6,7 @@ For any questions or issues, you can contact the author:
 
 ## colored_text
 
-A Python module for printing colored text in the terminal with ANSI escape codes. Supports standard colors, bright colors, 256-color mode, and 24-bit RGB.
+A Python module for printing colored text in the terminal with ANSI escape codes. Supports standard colors, bright colors, 256-color mode, and 24-bit RGB, hsl, hex_code, table formatting, text highlighting, random colors and backgrounds, text animation with predefined animation types like 'fade_in', 'blink', 'rainbow_wave' and much more.
 
 ## Installation
 
