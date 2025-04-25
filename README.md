@@ -25,7 +25,7 @@ print(ColoredText.red("Hello World!"))
 print(ColoredText.rgb(text, 24, 64, 84))
 ```
 
-# It should print Hello World! in red color to terminal.
+#### It should print Hello World! in red color to terminal.
 
 Available Colors
 Standard Colors:
