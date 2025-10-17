@@ -1,8 +1,14 @@
+<<<<<<< HEAD
+=======
+# Bismillah
+
+>>>>>>> 3f4e2db (Add .gitignore)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 # C extensions
 *.so
 
@@ -31,6 +37,14 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+=======
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+>>>>>>> 3f4e2db (Add .gitignore)
 
 # Installer logs
 pip-log.txt
@@ -49,6 +63,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+<<<<<<< HEAD
 cover/
 
 # Translations
@@ -121,12 +136,19 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+=======
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+>>>>>>> 3f4e2db (Add .gitignore)
 # Environments
 .env
 .venv
 env/
 venv/
 ENV/
+<<<<<<< HEAD
 env.bak/
 venv.bak/
 
@@ -160,3 +182,26 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+myenv/
+.envrc
+venv.bak/
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# PyPI / build configs (temporary)
+*.pypirc
+*.log
+
+# Local test files
+test.py
+tests/
+*.bak
+
+>>>>>>> 3f4e2db (Add .gitignore)
