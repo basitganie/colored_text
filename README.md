@@ -25,7 +25,7 @@ pip install color_ur_text
 from color_ur_text import ColoredText
 
 # Basic usage
-print(ColoredText.red("Hello World!"))
+print(ColoredText.print_colored("Hello World!", ColorText.RED))
 print(ColoredText.rgb("RGB Color", 24, 64, 84))
 print(ColoredText.hex("#FF5733", "Hex Color"))
 print(ColoredText.animate("Blinking Text", animation_type="blink"))
@@ -44,6 +44,9 @@ ColoredText.random_color("Surprise!")
 
 # Animations
 ColoredText.animate("SYMPHONY", animation_type='rainbow_wave')
+# Spinner
+# Spinner
+ColoredText.spinner("Loading data", duration=2.0, spinner_style='dots', color=(255, 0, 255))
 
 ```
 
