@@ -69,4 +69,4 @@ Open a Pull Request
 ## License 📜
 MIT License
 
-Copyright (c) 2026 Basit Ahmad Ganie
+Copyright © 2026 Basit Ahmad Ganie
