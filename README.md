@@ -1,6 +1,9 @@
 # Colored Text 🌈
+![Version](https://img.shields.io/badge/version-0.1.3.1-cyan)
+![License](https://img.shields.io/badge/license-MIT-purple)
+![Python](https://img.shields.io/badge/python-3.11-blue)
 
-## Author: Basit Ahmad Ganie
+### Author: Basit Ahmad Ganie
 ### Email: basitahmed1412@gmail.com
 
 A Python module for printing colored text in the terminal with ANSI escape codes. Supports standard colors, bright colors, 256-color mode, and 24-bit RGB, HSL, hex codes, table formatting, text highlighting, random colors/backgrounds, progress_bar, gradient_text and text animations.
